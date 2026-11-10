@@ -187,8 +187,8 @@ cd gallery && flutter pub get && flutter run    # or: flutter build web
 ```yaml
 dependencies:
   genui_min: ^0.3.0
-  a2ui_core: ^0.5.0
-  a2ui_flutter: ^0.1.0
+  a2ui_core: ^0.6.0
+  a2ui_flutter: ^0.2.0
 ```
 
 `genui_min` is renderer-only — **bring your own on-device LLM** (e.g. [`flutter_gemma`](https://pub.dev/packages/flutter_gemma)). On iOS, large-model inference needs the `com.apple.developer.kernel.increased-memory-limit` entitlement (a paid Apple Developer account).
